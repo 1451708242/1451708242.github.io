@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <title>系统登录</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="top-title">
+            <div>客流量监测系统</div>
+        </div>
+        <div class="login">
+            <div class="login-title">用户登录</div>
+            <div class="input-div"><input type="text" class="login-input" id="name"/></div>
+            <div class="input-div"><input type="password" class="login-input" id="pwd"/></div>
+            <div class="input-div"><input type="submit" class="user-login" value="登录" onclick="tz()"></div>
+            <div class="input-div"><input type="button" class="main-login" value="管理员登录" onclick="admintz()"/></div>
+            <a class="createNew" href="temp.html">创建账号</a>
+        </div>
+    </div>
+</body>
+<script>
+    function tz() {
+        window.location.href = "FirstPage.html";
+    }
+    function admintz() {
+        var name = document.getElementById("name").value;
+        var pwd = document.getElementById("pwd").value;
+        if (name == "admin" && pwd == "admin"){
+            window.location.href = "admin.html";
+        }else if (name == ""){}
+        else if(pwd == ""){
+            alert("请输入密码！")
+        }else if (name != null && name != "admin"){
+            alert("您不是管理员用户！请确认！")
+        }else if (pwd != null && pwd != "admin"){
+            alert("密码输入有误！请确认！")
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    width: 100%;
+    height:100%;
+}
+.parent {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,0.75);
+    position: relative;
+}
+.top {
+    float: left;
+    margin-left: 50px;
+}
+.top_title {
+    color: white;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+.user_system {
+    width: 250px;
+    height: 50px;
+    background-color: dimgray;
+    float: right;
+}
+.user_inf div {
+    color: white;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+.user_inf img {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    float: left;
+}
+.quit {
+    float: left;
+    margin-left: 30px;
+    margin-top: 13px;
+}
+.quit a{
+    font-family: "微软雅黑";
+    font-size: 15px;
+    color: azure;
+    text-decoration: none;
+}
+.quit a:hover {
+    color: white;
+}
+.rightNvg {
+    width: 13%;
+    float: left;
+}
+.Nvg-item {
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 35px;
+}
+.Nvg-item:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+.Nvg-item a {
+    margin-left: 65px;
+}
+.Nvg-item1,.Nvg-item2 {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+.Nvg-item1 {
+    margin-top: 50px;
+    border-bottom: 1px gainsboro solid;
+}
+.Nvg-item1:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+.Nvg-item1 img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+.Nvg-item2 img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+.Nvg-item1:hover {
+    cursor: pointer;
+}
+.Nvg-item:hover {
+    cursor: pointer;
+}
+.displayDemo {
+    width: 85%;
+    height: 800px;
+    border: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    float: left;
+}
+.notice {
+    width: 90%;
+    height: 60px;
+    border: 0px;
+    border-radius: 3px;
+    border: 1px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px gainsboro;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.notice a{
+    line-height: 60px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.8);
+    padding-left: 60px;
+}
+.item1 {
+    width: 90%;
+    height: 225px;
+    border: 0px;
+    border-radius: 3px;
+    border: 1px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px gainsboro;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.tip {
+    color: rgba(0,0,0,0.8);
+    font-size: 18px;
+    margin-left: 3%;
+    padding-top: 20px;
+}
+.item1-1 {
+    width: 20%;
+    height: 100px;
+    /*border: 1px red solid;*/
+    margin-left: 10%;
+    margin-top: 35px;
+    float: left;
+}
+.P-number {
+    color: rgba(0,0,0,0.8);
+    font-size: 15px;
+    text-align: center;
+}
+.number {
+    font-size: 40px;
+    color: limegreen;
+    line-height: 70px;
+    text-align: center;
+}
+.time {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(0,0,0,0.8);
+    margin-right: 0px;
+    float: left;
+}
+.time a {
+    float: right;
+    margin-right: 2%;
+}
